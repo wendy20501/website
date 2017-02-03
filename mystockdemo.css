@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: darkseagreen;
+    margin: auto;
+}
+
+#intro {
+    text-align: left;
+}
+
+#logoimg {
+    position: fixed;
+    margin: 20px;
+    top:0;
+    left: 0;
+    width: 50px;
+}
+
+#show {
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 4px;
+    width: 800;
+    color: darkslategrey;
+}
+
+hr {
+    color: darkslategray;
+}
+
+td {
+    margin: 3px;
+}
+
+.mybtn {
+    background-color: rgb(221, 237, 209);
+    border: 1px solid rgb(221, 237, 209);
+    padding: 6px;
+    margin: 5px;
+    width: 160PX;
+    color: #55a51c;
+    float: left;
+}
+
+.size {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.des {
+    font-size: 0.8em;
+}
+
+.title {
+    font-weight: bold;
+    color:forestgreen;
+}

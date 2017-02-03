@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+
+#logo {
+    position: fixed;
+    margin: 20px;
+    top:0;
+    left: 0;
+    display: none;
+}
+
+#menuitems {
+    position: fixed;
+    margin: 20px;
+    top:0;
+    right: 0;
+    display: none;
+}
+
+#logoimg {
+    width: 50px;
+}
+
+#icon {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#menu {
+    margin: auto;
+    padding-top: 30%;
+}
+
+.menuimg {
+    width: 150px;
+    height: 150px;
+}
+
+#top {
+    background-image: url(image/webpage1/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#about {
+    background-image: url(image/webpage22a/2A-01.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 25%;
+}
+
+#aboutword {
+    padding-right: 10%;
+    height: 40%;
+    display: block;
+    margin: auto;
+}
+
+#aboutlink {
+    padding-right: 15%;
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+
+#project {
+    background-image: url(image/webpage3/3-01.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec_title {
+    font-size: 50px;
+}
+
+#intro {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color:#d5bee9;
+    font-size: 20px;
+    color: white;   
+    width: 300px;
+    padding: 10px;
+}
+
+.project_section {
+    height: 200vh;
+}
+.section {
+    height: 100vh;
+}
+
+#project_slide {
+    background-color:cornflowerblue;
+    padding: 80px;
+    height: 80%;  
+}
+
+.project_info {
+    margin-left: 30px;
+    text-align: left;
+    background-color: ghostwhite;
+}
+
+.mylabel {
+    margin-bottom:10px;
+}
+
+.detail {
+    color:darkblue;
+}
+
+.mybutton {
+    font-size: 25px;
+}
+
+.myinfo {
+    text-align: left;
+}
+
+.resume_title {
+    font-weight: 600;
+}
+
+.star {
+    color: red;
+}
