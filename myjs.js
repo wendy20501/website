@@ -31,18 +31,51 @@ $(function(){
         $("#aboutword").attr("src", "image/webpage22a/2A-1-01.png");
     })
     window.on = true;
+    $("#aboutpeople_b").hide();
+    $("#aboutandroid").hide();
+    $("#aboutweb").hide();
+    $("#aboutsw").hide();
+    
+    $("#aboutandroid").mouseenter(function() {
+        $("#aboutandroid").attr("src", "image/webpage22b/2B-1-BRIGHT-01.png");
+    });
+    $("#aboutandroid").mouseout(function() {
+        $("#aboutandroid").attr("src", "image/webpage22b/2B-1-01.png");
+    });
+    $("#aboutweb").mouseenter(function() {
+        $("#aboutweb").attr("src", "image/webpage22b/2B-2-BRIGHT-01.png");
+    });
+    $("#aboutweb").mouseout(function() {
+        $("#aboutweb").attr("src", "image/webpage22b/2B-2-01.png");
+    });
+    $("#aboutsw").mouseenter(function() {
+        $("#aboutsw").attr("src", "image/webpage22b/2B-3-BRIGHT-01.png");
+    });
+    $("#aboutsw").mouseout(function() {
+        $("#aboutsw").attr("src", "image/webpage22b/2B-3-01.png");
+    });
 });
 
 function switchpage() {
     switch(window.on) {
         case true:
             $("#about").css("background-image", "url(image/webpage22b/2B-01.jpg)");
-            $("#aboutlink").attr("src", "image/webpage22b/2B-4-01.png");
+            $("#aboutpeople_a").hide();
+            $("#aboutword").hide();
+            $("#aboutpeople_b").show();
+            $("#aboutandroid").show();
+            $("#aboutweb").show();
+            $("#aboutsw").show();
             window.on = false;
             break;
         case false:
             $("#about").css("background-image", "url(image/webpage22a/2A-01.jpg)");
-            $("#aboutlink").attr("src", "image/webpage22a/2A-2-01.png");
+            $("#aboutpeople_a").show();
+            $("#aboutword").show();
+            $("#aboutpeople_b").hide();
+            $("#aboutandroid").hide();
+            $("#aboutweb").hide();
+            $("#aboutsw").hide();
             window.on = true;
             break;
     }

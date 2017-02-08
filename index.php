@@ -30,8 +30,12 @@
         
         <!-- About section -->
         <div id="about" class="section">
+            <img id="aboutandroid" class="btn" src="image/webpage22b/2B-1-01.png" onclick="" alt="Responsive image">
+            <img id="aboutweb" class="btn" src="image/webpage22b/2B-2-01.png" onclick="" alt="Responsive image">
+            <img id="aboutsw" class="btn" src="image/webpage22b/2B-3-01.png" onclick="" alt="Responsive image">
             <img id="aboutword" class="btn" src="image/webpage22a/2A-1-01.png" onclick="switchpage()" alt="Responsive image">
-            <img id="aboutlink" src="image/webpage22a/2A-2-01.png" alt="Responsive image">
+            <img id="aboutpeople_a" src="image/webpage22a/2A-2-01.png" alt="Responsive image">
+            <img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image">
             <!--
             <div class="sec_title">- About -</div>
                 <div id="intro" class="jumbotron thumbnail">Hi, I'm Wendy! <br>I strive to do what I dream to do - be a software engineer and develop well applications for people. Currently, I am pursuing my master in Computer Science at USC and seeking a summer or fall semester internship position.</div>
@@ -132,13 +136,16 @@
         </div>
         
         <!-- Resume section -->
-        <div id="resume" class="section">
+        <div id="resume" class="project_section">
+            <!--
             <div class="sec_title">- Resume -</div><br>
-            
+            -->
             <!-- Button trigger modal -->
+            <!--
             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Check out my resume!
             </button>
+            -->
             
             <!-- Resume modal -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -220,30 +227,30 @@
         
         <!-- Contact section -->
         <div id="contact" class="section">
-            <div class="sec_title">- Contact -</div><br>
+            
             <form class="form-horizontal" name="contact" method="post">
                 <div class="form-group">
                     <label for="inputname" class="col-md-4 control-label"><span class="star">*</span> Name</label>
                     <div class="col-md-5">
-                        <input type="text" class="form-control" name="inputname" placeholder="Name" required>
+                        <input type="text" class="form-control contactbg" name="inputname" placeholder="Name" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputemail" class="col-md-4 control-label"><span class="star">*</span> Email</label>
                     <div class="col-md-5">
-                        <input type="email" class="form-control" name="inputemail" placeholder="Email" required>
+                        <input type="email" class="form-control contactbg" name="inputemail" placeholder="Email" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputsub" class="col-md-4 control-label"><span class="star">*</span> Subject</label>
                     <div class="col-md-5">
-                        <input type="text" class="form-control" name="inputsub" placeholder="Subject" required>
+                        <input type="text" class="form-control contactbg" name="inputsub" placeholder="Subject" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputmsg" class="col-md-4 control-label"><span class="star">*</span> Message</label>
                     <div class="col-md-5">
-                        <textarea class="form-control" name="inputmsg" rows="5" placeholder="Message" required></textarea>
+                        <textarea class="form-control contactbg" name="inputmsg" rows="5" placeholder="Message" required></textarea>
                     </div>
                 </div>
                 <div class="form-group">
