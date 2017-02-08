@@ -30,8 +30,12 @@
         
         <!-- About section -->
         <div id="about" class="section">
+            <img id="aboutandroid" class="btn" src="image/webpage22b/2B-1-01.png" onclick="" alt="Responsive image">
+            <img id="aboutweb" class="btn" src="image/webpage22b/2B-2-01.png" onclick="" alt="Responsive image">
+            <img id="aboutsw" class="btn" src="image/webpage22b/2B-3-01.png" onclick="" alt="Responsive image">
             <img id="aboutword" class="btn" src="image/webpage22a/2A-1-01.png" onclick="switchpage()" alt="Responsive image">
-            <img id="aboutlink" src="image/webpage22a/2A-2-01.png" alt="Responsive image">
+            <img id="aboutpeople_a" src="image/webpage22a/2A-2-01.png" alt="Responsive image">
+            <img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image">
             <!--
             <div class="sec_title">- About -</div>
                 <div id="intro" class="jumbotron thumbnail">Hi, I'm Wendy! <br>I strive to do what I dream to do - be a software engineer and develop well applications for people. Currently, I am pursuing my master in Computer Science at USC and seeking a summer or fall semester internship position.</div>

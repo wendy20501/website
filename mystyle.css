@@ -50,21 +50,49 @@ body {
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 25%;
+    /*padding-top: 25%;*/
 }
 
 #aboutword {
-    padding-right: 10%;
-    height: 40%;
-    display: block;
-    margin: auto;
+    width: 15%;
+    position: absolute;
+    bottom: 300px;
+    left: 550px;
 }
 
-#aboutlink {
-    padding-right: 15%;
-    height: 60%;
-    display: block;
-    margin: auto;
+#aboutpeople_a {
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+}
+
+#aboutpeople_b {
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+}
+
+#aboutandroid {
+    width: 10%;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+}
+
+#aboutweb {
+    width: 10%;
+    position: absolute;
+    bottom: 10px;
+    left: 350px;
+}
+
+#aboutsw {
+    width: 10%;
+    position: absolute;
+    bottom: 10px;
+    left: 450px;
 }
 
 #project {
@@ -94,6 +122,7 @@ body {
 }
 .section {
     height: 100vh;
+    position: relative;
 }
 
 #project_slide {
