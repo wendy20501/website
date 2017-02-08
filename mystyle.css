@@ -50,7 +50,6 @@ body {
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    /*padding-top: 25%;*/
 }
 
 #aboutword {
@@ -100,6 +99,26 @@ body {
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#resume {
+    background-image: url(image/webpage4page5/PAGE4.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    background-image: url(image/webpage4page5/PAGE5.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    color: white;
+}
+
+.contactbg {
+    background-color: rgb(137,164,198);
 }
 
 .sec_title {
