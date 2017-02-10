@@ -29,8 +29,10 @@ body {
 }
 
 #menu {
-    margin: auto;
-    padding-top: 30%;
+    position: relative;
+    top:60%;
+    vertical-align: middle;
+    padding: 10px;
 }
 
 .menuimg {
@@ -39,10 +41,11 @@ body {
 }
 
 #top {
-    background-image: url(image/webpage1/1.jpg);
+    background-image: url(image/webpage1/1-01.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 #about {
@@ -102,14 +105,14 @@ body {
 }
 
 #resume {
-    background-image: url(image/webpage4page5/PAGE4.jpg);
+    background-image: url(image/webpage4page5/4-01.jpg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #contact {
-    background-image: url(image/webpage4page5/PAGE5.jpg);
+    background-image: url(image/webpage4page5/5-01.jpg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
