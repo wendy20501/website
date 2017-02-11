@@ -19,7 +19,11 @@
         </a>
         
         <!-- First menu page -->
-        <div id="top" class="section">
+        <div id="top">
+            <div class="bg">
+                <img src="image/webpage1/1-01.jpg">
+            </div>
+            
             <div id="menu">
                 <a href="#about"><img id="aboutimg" class="menuimg" src="image/webpage1/1-1.png" alt="Responsive image"></a>
                 <a href="#project"><img class="menuimg" id="projectimg" src="image/webpage1/1-2.png" alt="Responsive image"></a>
@@ -29,23 +33,29 @@
         </div>
         
         <!-- About section -->
-        <div id="about" class="section">
+        <div id="about">
+            <div class="bg">
+                <img id="aboutbg" src="image/webpage22a/2A-01.jpg">
+            </div>
+            <div class="sec_title">About</div>
             <img id="aboutandroid" class="btn" src="image/webpage22b/2B-1-01.png" onclick="" alt="Responsive image">
             <img id="aboutweb" class="btn" src="image/webpage22b/2B-2-01.png" onclick="" alt="Responsive image">
             <img id="aboutsw" class="btn" src="image/webpage22b/2B-3-01.png" onclick="" alt="Responsive image">
             <img id="aboutword" class="btn" src="image/webpage22a/2A-1-01.png" onclick="switchpage()" alt="Responsive image">
-            <img id="aboutpeople_a" src="image/webpage22a/2A-2-01.png" alt="Responsive image">
-            <img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image">
-            <!--
-            <div class="sec_title">- About -</div>
-                <div id="intro" class="jumbotron thumbnail">Hi, I'm Wendy! <br>I strive to do what I dream to do - be a software engineer and develop well applications for people. Currently, I am pursuing my master in Computer Science at USC and seeking a summer or fall semester internship position.</div>
-            -->
+            <!--img id="aboutpeople_a" src="image/webpage22a/2A-2-01.png" alt="Responsive image"-->
+            <!--img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image"-->
+            <img id="aboutphoto" class="img-circle" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image">
+            <div id="intro" class="jumbotron thumbnail">Hi, I'm Wendy! <br>I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am seeking a full-time position around Bay Area, CA..</div>
         </div>
         
         <!-- Project section -->
-        <div id="project" class="project_section">
+        <div id="project">
+            <div class="bg">
+                <img class="double_sec" src="image/webpage3/3-01.jpg">
+            </div>
+            <div class="sec_title">Project</div>
             <!--
-            <div class="sec_title">- Project -</div><br>
+            <br>
             <div id="project_slide" class="carousel slide" data-ride="carousel">
             -->
                 <!-- carousel indicators -->
@@ -136,7 +146,10 @@
         </div>
         
         <!-- Resume section -->
-        <div id="resume" class="project_section">
+        <div id="resume">
+            <div class="bg">
+                <img class="double_sec" src="image/webpage4page5/4-01.jpg">
+            </div>
             <!--
             <div class="sec_title">- Resume -</div><br>
             -->
@@ -226,62 +239,66 @@
         </div>
         
         <!-- Contact section -->
-        <div id="contact" class="section">
-            
-            <form class="form-horizontal" name="contact" method="post">
-                <div class="form-group">
-                    <label for="inputname" class="col-md-4 control-label"><span class="star">*</span> Name</label>
-                    <div class="col-md-5">
-                        <input type="text" class="form-control contactbg" name="inputname" placeholder="Name" required>
+        <div id="contact">
+            <div class="bg">
+                <img src="image/webpage4page5/5-01.jpg">
+            </div>
+            <div class="contact_form">
+                <form class="form-horizontal" name="contact" method="post">
+                    <div class="form-group">
+                        <label for="inputname" class="col-md-4 control-label"><span class="star">*</span> Name</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control contactbg" name="inputname" placeholder="Name" required>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputemail" class="col-md-4 control-label"><span class="star">*</span> Email</label>
-                    <div class="col-md-5">
-                        <input type="email" class="form-control contactbg" name="inputemail" placeholder="Email" required>
+                    <div class="form-group">
+                        <label for="inputemail" class="col-md-4 control-label"><span class="star">*</span> Email</label>
+                        <div class="col-md-5">
+                            <input type="email" class="form-control contactbg" name="inputemail" placeholder="Email" required>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputsub" class="col-md-4 control-label"><span class="star">*</span> Subject</label>
-                    <div class="col-md-5">
-                        <input type="text" class="form-control contactbg" name="inputsub" placeholder="Subject" required>
+                    <div class="form-group">
+                        <label for="inputsub" class="col-md-4 control-label"><span class="star">*</span> Subject</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control contactbg" name="inputsub" placeholder="Subject" required>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputmsg" class="col-md-4 control-label"><span class="star">*</span> Message</label>
-                    <div class="col-md-5">
-                        <textarea class="form-control contactbg" name="inputmsg" rows="5" placeholder="Message" required></textarea>
+                    <div class="form-group">
+                        <label for="inputmsg" class="col-md-4 control-label"><span class="star">*</span> Message</label>
+                        <div class="col-md-5">
+                            <textarea class="form-control contactbg" name="inputmsg" rows="5" placeholder="Message" required></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-3 col-md-6">
-                      <button type="submit" class="btn btn-primary" name="contact">Send</button>
-                      <button type="reset" class="btn btn-default">Reset</button>
-                    </div>
-                  </div>
-            </form>
-            <?php
-                if (isset($_POST["contact"])){
-                    $to = "wendy20501@gmail.com";
-                    $subject = "You got a mail from your website: " . $_POST["inputsub"];
-                    $msg = $_POST["inputmsg"];
-                    $headers = "From: " . $_POST["inputemail"];
-                    $msg = wordwrap($msg,70);
-                    mail($to,$subject,$msg,$headers);
-                }
-            ?> 
-            
-            <!-- Related links -->
-            <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/profile.php?id=1795699473" target="_blank">
-                <span class="fa fa-facebook"></span>
-            </a>
-            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/yi-wen-wang-5936a7105" target="_blank">
-                <span class="fa fa-linkedin"></span>
-            </a>
-            <br><br>
-            
-            <!-- Copyright -->
-            Copyright &copy; 2017 by Yi-Wen Wang.
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-6">
+                          <button type="submit" class="btn btn-primary" name="contact">Send</button>
+                          <button type="reset" class="btn btn-default">Reset</button>
+                        </div>
+                      </div>
+                </form>
+                <?php
+                    if (isset($_POST["contact"])){
+                        $to = "wendy20501@gmail.com";
+                        $subject = "You got a mail from your website: " . $_POST["inputsub"];
+                        $msg = $_POST["inputmsg"];
+                        $headers = "From: " . $_POST["inputemail"];
+                        $msg = wordwrap($msg,70);
+                        mail($to,$subject,$msg,$headers);
+                    }
+                ?> 
+
+                <!-- Related links -->
+                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/profile.php?id=1795699473" target="_blank">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/yi-wen-wang-5936a7105" target="_blank">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <br><br>
+
+                <!-- Copyright -->
+                Copyright &copy; 2017 by Yi-Wen Wang.
+            </div>
         </div>
     </body>
     <script>window.jQuery || document.write('<script src="jquery-1.12.2.js"><\/script>')</script>

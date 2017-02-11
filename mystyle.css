@@ -1,6 +1,22 @@
 body {
     text-align: center;
     margin: auto;
+    background-image: url(image/retina_wood.png);
+    background-repeat: repeat;
+}
+
+.bg {
+    position: relative;
+    z-index: -999;
+}
+
+.bg img {
+    height: 100vh;
+    /*width: 100%;*/
+}
+
+.bg .double_sec {
+    height: 200vh;
 }
 
 #logo {
@@ -29,8 +45,10 @@ body {
 }
 
 #menu {
-    position: relative;
-    top:60%;
+    position: absolute;
+    bottom:10%;
+    left: 0;
+    right: 0;
     vertical-align: middle;
     padding: 10px;
 }
@@ -41,25 +59,29 @@ body {
 }
 
 #top {
+    /*
     background-image: url(image/webpage1/1-01.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: relative;*/
 }
 
 #about {
+    position: relative;
+    /*
     background-image: url(image/webpage22a/2A-01.jpg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
+    */
 }
 
 #aboutword {
-    width: 15%;
+    width: 150px;
     position: absolute;
-    bottom: 300px;
-    left: 550px;
+    top: 45%;
+    left: 40%;
 }
 
 #aboutpeople_a {
@@ -97,45 +119,77 @@ body {
     left: 450px;
 }
 
+#aboutphoto {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
 #project {
+    position: relative;
+    /*
     background-image: url(image/webpage3/3-01.jpg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
+    */
 }
 
 #resume {
+    position: relative;
+    /*
     background-image: url(image/webpage4page5/4-01.jpg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
+    */
 }
 
 #contact {
+    position: relative;
+    /*
     background-image: url(image/webpage4page5/5-01.jpg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 300px;
     color: white;
+    */
 }
 
 .contactbg {
     background-color: rgb(137,164,198);
 }
 
+.contact_form {
+    position: absolute;
+    top:50%;
+    left: 0;
+    right: 0;
+}
+
 .sec_title {
     font-size: 50px;
+    color: white;
+    border-color: white;
+    border-style: dashed;
+    position: absolute;
+    top: 50px;
+    left:0;
+    right: 0;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 #intro {
     text-align: left;
-    margin-top: 100px;
-    margin-left: 200px;
-    background-color:#d5bee9;
-    font-size: 20px;
-    color: white;   
+    color: darkslategray;
     width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
     padding: 10px;
 }
 
