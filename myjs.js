@@ -59,7 +59,7 @@ $(function(){
 function switchpage() {
     switch(window.on) {
         case true:
-            $("#about").css("background-image", "url(image/webpage22b/2B-01.jpg)");
+            $("#aboutbg").attr("src", "url(image/webpage22b/2B-01.jpg)");
             $("#aboutpeople_a").hide();
             $("#aboutword").hide();
             $("#aboutpeople_b").show();
@@ -69,7 +69,7 @@ function switchpage() {
             window.on = false;
             break;
         case false:
-            $("#about").css("background-image", "url(image/webpage22a/2A-01.jpg)");
+            $("#aboutbg").attr("src", "url(image/webpage22a/2A-01.jpg)");
             $("#aboutpeople_a").show();
             $("#aboutword").show();
             $("#aboutpeople_b").hide();
