@@ -11,6 +11,7 @@
         <!-- Font-awesome core CSS -->
         <link href="font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="image/icon.png">
+        <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     </head>
     <body>
         <!-- Top logo and tabs -->
@@ -38,13 +39,13 @@
                 <img id="aboutbg" src="image/webpage22a/2A-01.jpg">
             </div>
             <div class="sec_title">About</div>
-            <img id="aboutandroid" class="btn" src="image/webpage22b/2B-1-01.png" onclick="" alt="Responsive image">
-            <img id="aboutweb" class="btn" src="image/webpage22b/2B-2-01.png" onclick="" alt="Responsive image">
-            <img id="aboutsw" class="btn" src="image/webpage22b/2B-3-01.png" onclick="" alt="Responsive image">
-            <img id="aboutword" class="btn" src="image/webpage22a/2A-1-01.png" onclick="switchpage()" alt="Responsive image">
+            <img id="aboutandroid" class="mg-responsive btn" src="image/webpage22b/2B-1-01.png" onclick="" alt="Responsive image">
+            <img id="aboutweb" class="mg-responsive btn" src="image/webpage22b/2B-2-01.png" onclick="" alt="Responsive image">
+            <img id="aboutsw" class="mg-responsive btn" src="image/webpage22b/2B-3-01.png" onclick="" alt="Responsive image">
+            <img id="aboutword" class="mg-responsive btn" src="image/webpage22a/2A-1-01.png" onclick="switchpage()" alt="Responsive image">
             <!--img id="aboutpeople_a" src="image/webpage22a/2A-2-01.png" alt="Responsive image"-->
             <!--img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image"-->
-            <img id="aboutphoto" class="img-circle" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image">
+            <img id="aboutphoto" class="mg-responsive img-circle" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image">
             <div id="intro" class="jumbotron thumbnail">Hi, I'm Wendy! <br>I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am seeking a full-time position around Bay Area, CA..</div>
         </div>
         
@@ -54,6 +55,26 @@
                 <img class="double_sec" src="image/webpage3/3-01.jpg">
             </div>
             <div class="sec_title">Project</div>
+            <div class="mycontainer">
+                <div class="projectphoto">
+                    <img class="img-responsive img-thumbnail" src="image/project_web.png" alt="Responsive image">
+                    <div class="overlay">
+                        <div class="text">Stock Search App</div>
+                    </div>
+                </div>
+                <div class="projectphoto">
+                    <img class="img-responsive img-thumbnail" src="image/project_game.png" alt="Responsive image">
+                    <div class="overlay">
+                        <div class="text">Blackboard Runner Game</div>
+                    </div>
+                </div>
+                <div class="projectphoto">
+                    <img class="img-responsive img-thumbnail" src="image/project_egocentric.png" alt="Responsive image">
+                    <div class="overlay">
+                        <div class="text">Egocentric Video Summary</div>
+                    </div>
+                </div>
+            </div>
             <!--
             <br>
             <div id="project_slide" class="carousel slide" data-ride="carousel">
