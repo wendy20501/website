@@ -11,12 +11,8 @@ body {
 }
 
 .bg img {
-    height: 100vh;
-    /*width: 100%;*/
-}
-
-.bg .double_sec {
-    height: 200vh;
+    /*height: 100vh;*/
+    width: 100%;
 }
 
 #logo {
@@ -27,21 +23,8 @@ body {
     display: none;
 }
 
-#menuitems {
-    position: fixed;
-    margin: 20px;
-    top:0;
-    right: 0;
-    display: none;
-}
-
 #logoimg {
     width: 50px;
-}
-
-#icon {
-    margin-top: 70px;
-    margin-bottom: 50px;
 }
 
 #menu {
@@ -49,39 +32,11 @@ body {
     bottom:10%;
     left: 0;
     right: 0;
-    vertical-align: middle;
-    padding: 10px;
 }
 
 .menuimg {
     width: 150px;
     height: 150px;
-}
-
-#top {
-    /*
-    background-image: url(image/webpage1/1-01.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;*/
-}
-
-#about {
-    position: relative;
-    /*
-    background-image: url(image/webpage22a/2A-01.jpg);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    */
-}
-
-#aboutword {
-    width: 150px;
-    position: absolute;
-    top: 45%;
-    left: 40%;
 }
 
 #aboutpeople_a {
@@ -98,33 +53,52 @@ body {
     left: 600px;
 }
 
-#aboutandroid {
-    width: 10%;
-    position: absolute;
-    bottom: 10px;
-    left: 250px;
-}
-
-#aboutweb {
-    width: 10%;
-    position: absolute;
-    bottom: 10px;
-    left: 350px;
-}
-
-#aboutsw {
-    width: 10%;
-    position: absolute;
-    bottom: 10px;
-    left: 450px;
-}
-
 #aboutphoto {
-    width: 200px;
-    height: 200px;
+    float: left;
+    width: 30%;
+}
+
+#about {
+    padding-top: 30px;
+}
+
+#aboutword {
+    text-align: left;
+    color: darkslategray;
+    margin-left: 30%;
+    padding-left: 30px;
+}
+
+.intro {
+    overflow: auto;
+    padding: 30px;
+}
+
+.service {
+    position: relative;
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.service img {
+    width: 150px;
+}
+
+.service:hover .service_overlay {
+    opacity: 1;
+}
+
+.service_overlay {
+    text-align: left;
+    color: rgb(105,139,65);
     position: absolute;
-    top: 30%;
-    left: 60%;
+    top: 30px;
+    bottom: 0;
+    left: 150px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
 }
 
 #project {
@@ -162,7 +136,7 @@ body {
 .projectphoto {
     position: relative;
     display: inline-table;
-    width: 200px;
+    height: 200px;
     margin: 20px;
 }
 
@@ -188,7 +162,7 @@ body {
 }
 
 .projectphoto:hover .overlay {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .text {
@@ -224,16 +198,6 @@ body {
     right: 0;
     margin-left: 40%;
     margin-right: 40%;
-}
-
-#intro {
-    text-align: left;
-    color: darkslategray;
-    width: 300px;
-    position: absolute;
-    top: 60%;
-    left: 60%;
-    padding: 10px;
 }
 
 .project_section {

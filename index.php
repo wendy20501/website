@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Wendy Wang | Software Engineer</title>
+        <title>Yi-Wen Wang | Software Engineer</title>
         <!-- Bootstrap core CSS -->
         <link href="dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="bootstrap-social-gh-pages/bootstrap-social.css" rel="stylesheet">
@@ -21,6 +21,7 @@
         
         <!-- First menu page -->
         <div id="top">
+            
             <div class="bg">
                 <img src="image/webpage1/1-01.jpg">
             </div>
@@ -35,6 +36,7 @@
         
         <!-- About section -->
         <div id="about">
+            <!--
             <div class="bg">
                 <img id="aboutbg" src="image/webpage22a/2A-01.jpg">
             </div>
@@ -43,10 +45,56 @@
             <img id="aboutweb" class="mg-responsive btn" src="image/webpage22b/2B-2-01.png" onclick="" alt="Responsive image">
             <img id="aboutsw" class="mg-responsive btn" src="image/webpage22b/2B-3-01.png" onclick="" alt="Responsive image">
             <img id="aboutword" class="mg-responsive btn" src="image/webpage22a/2A-1-01.png" onclick="switchpage()" alt="Responsive image">
+            -->
             <!--img id="aboutpeople_a" src="image/webpage22a/2A-2-01.png" alt="Responsive image"-->
             <!--img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image"-->
-            <img id="aboutphoto" class="mg-responsive img-circle" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image">
-            <div id="intro" class="jumbotron thumbnail">Hi, I'm Wendy! <br>I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am seeking a full-time position around Bay Area, CA..</div>
+            <div class="container">
+                <div class="intro jumbotron thumbnail">
+                    <img id="aboutphoto" class="mg-responsive img-rounded" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image">
+                    <div id="aboutword">
+                        <h3>Yi-Wen Wang</h3>
+                        Hi, My name is Yi-Wen. I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am actively pursuing any full-time software engineer positions around Bay Area, CA and would be available to start immediately. I am interested to explore and learn new technology. In USC, I love to learn courses in different fields such as AI, 3D, mobile game, web developing, etc. Now, I'm working on machine learning. If you have any opportunities or questions for me, don't be hesitate to contact me. Thank you.
+                    </div>
+                </div>
+                <div class="jumbotron thumbnail">
+                    <h3>What I can do</h3>
+                    <div class="service">
+                        <img id="aboutandroid" class="mg-responsive" src="image/webpage22b/2B-1-01.png" alt="Responsive image">
+                        <div class="service_overlay">
+                            Java<br><br>
+                            Android API<br><br>
+                            Android life cycle<br><br>
+                            Information architecture<br><br>
+                            Unit test
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img id="aboutweb" class="mg-responsive" src="image/webpage22b/2B-2-01.png" alt="Responsive image">
+                        <div class="service_overlay">
+                            HTML5<br><br>
+                            CSS3<br><br>
+                            Javascript<br><br>
+                            PHP<br><br>
+                            Responsive design<br><br>
+                            Web framworks
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img id="aboutsw" class="mg-responsive" src="image/webpage22b/2B-3-01.png" alt="Responsive image">
+                        <div class="service_overlay">
+                            Java<br><br>
+                            Python<br><br>
+                            C/C++<br><br>
+                            Algorithm<br><br>
+                            Data structure<br><br>
+                            Database<br><br>
+                            Software development life cycle<br><br>
+                            Design pattern<br><br>
+                            Unit test
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <!-- Project section -->
