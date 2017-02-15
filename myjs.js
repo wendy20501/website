@@ -32,9 +32,7 @@ $(function(){
     })
     window.on = true;
     $("#aboutpeople_b").hide();
-    $("#aboutandroid").hide();
-    $("#aboutweb").hide();
-    $("#aboutsw").hide();
+    
     
     $("#aboutandroid").mouseenter(function() {
         $("#aboutandroid").attr("src", "image/webpage22b/2B-1-BRIGHT-01.png");
@@ -54,6 +52,7 @@ $(function(){
     $("#aboutsw").mouseout(function() {
         $("#aboutsw").attr("src", "image/webpage22b/2B-3-01.png");
     });
+    
 });
 
 function switchpage() {

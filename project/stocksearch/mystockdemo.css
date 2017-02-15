@@ -25,6 +25,11 @@ body {
     color: darkslategrey;
 }
 
+.myimg {
+    height: 100px;
+    margin: auto;
+}
+
 hr {
     color: darkslategray;
 }
