@@ -105,7 +105,7 @@
             <div class="sec_title">Project</div>
             <div class="mycontainer">
                 <div class="projectphoto">
-                    <a href="http://cs-server.usc.edu:24226/website/mystockdemo.html" target="_self">
+                    <a href="http://cs-server.usc.edu:24226/website/project/stocksearch/mystockdemo.html" target="_self">
                         <img class="img-responsive" src="image/template/computer&phone-01.png" alt="Responsive image">
                         <div class="overlay">
                             <div class="text">Stock Search App</div>
