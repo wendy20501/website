@@ -53,7 +53,7 @@
                     <img id="aboutphoto" class="mg-responsive img-rounded" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image">
                     <div id="aboutword">
                         <h3>Yi-Wen Wang</h3>
-                        Hi, My name is Yi-Wen. I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am actively pursuing any full-time software engineer positions around Bay Area, CA and would be available to start immediately. I am interested to explore and learn new technology. In USC, I love to learn courses in different fields such as AI, 3D, mobile game, web developing, etc. Now, I'm working on machine learning. If you have any opportunities or questions for me, don't be hesitate to contact me. Thank you.
+                        Hi, My name is Yi-Wen. I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am actively pursuing any full-time software engineer positions around Bay Area, CA and would be available to start immediately. I am interested to explore and learn new technology. In USC, I love to learn courses in different fields such as AI, 3D, mobile game, web developing, etc. Now, I'm working on machine learning and Matlab. If you have any opportunities or questions for me, don't be hesitate to contact me. Thank you.
                     </div>
                 </div>
                 <div class="jumbotron thumbnail">
@@ -105,19 +105,21 @@
             <div class="sec_title">Project</div>
             <div class="mycontainer">
                 <div class="projectphoto">
-                    <img class="img-responsive img-thumbnail" src="image/project_web.png" alt="Responsive image">
-                    <div class="overlay">
-                        <div class="text">Stock Search App</div>
-                    </div>
+                    <a href="http://cs-server.usc.edu:24226/website/mystockdemo.html" target="_self">
+                        <img class="img-responsive" src="image/template/computer&phone-01.png" alt="Responsive image">
+                        <div class="overlay">
+                            <div class="text">Stock Search App</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="projectphoto">
-                    <img class="img-responsive img-thumbnail" src="image/project_game.png" alt="Responsive image">
+                    <img class="img-responsive" src="image/project_game.png" alt="Responsive image">
                     <div class="overlay">
                         <div class="text">Blackboard Runner Game</div>
                     </div>
                 </div>
                 <div class="projectphoto">
-                    <img class="img-responsive img-thumbnail" src="image/project_egocentric.png" alt="Responsive image">
+                    <img class="img-responsive" src="image/project_egocentric.png" alt="Responsive image">
                     <div class="overlay">
                         <div class="text">Egocentric Video Summary</div>
                     </div>

@@ -136,8 +136,8 @@ body {
 .projectphoto {
     position: relative;
     display: inline-table;
-    height: 200px;
-    margin: 20px;
+    width: 30%;
+    margin: 5px;
 }
 
 .mycontainer {
