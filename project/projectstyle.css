@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-repeat: repeat;
+    margin: auto;
+}
+
+.mytitlearea {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.mytitle {
+    max-width: 50%;
+    margin: auto;
+    font-size: 40px;
+    background:rgba(255,255,255,0.8);
+    outline: 1px solid;
+    outline-color: white;
+    outline-offset: 8px;
+    padding: 60px;
+}
+
+#logoimg {
+    position: fixed;
+    margin: 20px;
+    top:0;
+    left: 0;
+    width: 50px;
+}

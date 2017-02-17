@@ -1,19 +1,13 @@
 body {
-    text-align: center;
-    background-color: darkseagreen;
-    margin: auto;
+    background-image: url(../../image/grey_wash_wall.png);
+}
+
+.mytitlearea {
+    background-image: url(../../image/money-372787_1920.jpg);
 }
 
 #intro {
     text-align: left;
-}
-
-#logoimg {
-    position: fixed;
-    margin: 20px;
-    top:0;
-    left: 0;
-    width: 50px;
 }
 
 #show {
@@ -22,7 +16,18 @@ body {
     padding: 25px;
     border-radius: 4px;
     width: 800;
-    color: darkslategrey;
+    color: rgb(26,26,26);
+}
+
+.title {
+    font-weight: bold;
+    color:rgb(143, 112, 70);
+}
+
+.skill {
+    width: 40%;
+    margin: 10px;
+    display:inline-table;
 }
 
 .myimg {
@@ -30,21 +35,13 @@ body {
     margin: auto;
 }
 
-hr {
-    color: darkslategray;
-}
-
-td {
-    margin: 3px;
-}
-
 .mybtn {
-    background-color: rgb(221, 237, 209);
-    border: 1px solid rgb(221, 237, 209);
+    background-color: rgb(161, 176, 197);
+    border: 1px solid rgb(161, 176, 197);
     padding: 6px;
     margin: 5px;
     width: 160PX;
-    color: #55a51c;
+    color:rgb(112, 110, 125);
     float: left;
 }
 
@@ -57,7 +54,11 @@ td {
     font-size: 0.8em;
 }
 
-.title {
-    font-weight: bold;
-    color:forestgreen;
+.appimg {
+    height: 300px;
+    margin: 10px;
+}
+
+iframe {
+    margin-top: 20px;
 }
