@@ -107,20 +107,22 @@
                 <div class="projectphoto">
                     <a href="http://cs-server.usc.edu:24226/website/project/stocksearch/mystockdemo.html" target="_self">
                         <img class="img-responsive" src="image/template/computer&phone-01.png" alt="Responsive image">
-                        <div class="overlay">
+                        <div class="thumbnail overlay">
                             <div class="text">Stock Search App</div>
                         </div>
                     </a>
                 </div>
                 <div class="projectphoto">
-                    <img class="img-responsive" src="image/project_game.png" alt="Responsive image">
-                    <div class="overlay">
-                        <div class="text">Blackboard Runner Game</div>
-                    </div>
+                    <a href="http://cs-server.usc.edu:24226/website/project/blackboard-runner/bbrunnerdemo.html" target="_self">
+                        <img class="img-responsive" src="image/project_game.png" alt="Responsive image">
+                        <div class="thumbnail overlay">
+                            <div class="text">Blackboard Runner Game</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="projectphoto">
                     <img class="img-responsive" src="image/project_egocentric.png" alt="Responsive image">
-                    <div class="overlay">
+                    <div class="thumbnail overlay">
                         <div class="text">Egocentric Video Summary</div>
                     </div>
                 </div>
