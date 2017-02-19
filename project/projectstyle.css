@@ -31,3 +31,16 @@ body {
     left: 0;
     width: 50px;
 }
+
+#intro {
+    text-align: left;
+}
+
+#show {
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 4px;
+    width: 800;
+    color: rgb(26,26,26);
+}
