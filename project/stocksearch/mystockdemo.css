@@ -2,21 +2,12 @@ body {
     background-image: url(../../image/grey_wash_wall.png);
 }
 
+h3 {
+    color: rgb(112, 110, 125);
+}
+
 .mytitlearea {
     background-image: url(../../image/money-372787_1920.jpg);
-}
-
-#intro {
-    text-align: left;
-}
-
-#show {
-    background-color: white;
-    margin-top: 20px;
-    padding: 25px;
-    border-radius: 4px;
-    width: 800;
-    color: rgb(26,26,26);
 }
 
 .title {
