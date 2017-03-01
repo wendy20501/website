@@ -50,7 +50,8 @@
             <!--img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image"-->
             <div class="container">
                 <div class="intro jumbotron thumbnail">
-                    <img id="aboutphoto" class="mg-responsive img-rounded" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image">
+                    <!--img id="aboutphoto" class="mg-responsive img-rounded" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image"-->
+                    <div id="aboutphoto" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="zh_TW" data-type="vertical" data-theme="light" data-vanity="yi-wen-wang-5936a7105"><a class="LI-simple-link" href='https://www.linkedin.com/in/yi-wen-wang-5936a7105?trk=profile-badge'>Yi-Wen Wang</a></div>
                     <div id="aboutword">
                         <h3>Yi-Wen Wang</h3>
                         Hi, My name is Yi-Wen. I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am actively pursuing any full-time software engineer positions around Bay Area, CA and would be available to start immediately. I am interested to explore and learn new technology. In USC, I love to learn courses in different fields such as AI, 3D, mobile game, web developing, etc. Now, I'm working on machine learning and Matlab. If you have any opportunities or questions for me, don't be hesitate to contact me. Thank you.
@@ -379,4 +380,5 @@
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="myjs.js" type="text/javascript" language="Javascript"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </html>
