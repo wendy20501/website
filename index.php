@@ -122,10 +122,12 @@
                     </a>
                 </div>
                 <div class="projectphoto">
-                    <img class="img-responsive" src="image/project_egocentric.png" alt="Responsive image">
-                    <div class="thumbnail overlay">
-                        <div class="text">Egocentric Video Summary</div>
-                    </div>
+                    <a href="http://cs-server.usc.edu:24226/website/project/videoanalysis/videoanalysis.html" target="_self">
+                        <img class="img-responsive" src="image/project_egocentric.png" alt="Responsive image">
+                        <div class="thumbnail overlay">
+                            <div class="text">Egocentric Video Summary</div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <!--

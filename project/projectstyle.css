@@ -44,3 +44,8 @@ body {
     width: 800;
     color: rgb(26,26,26);
 }
+
+.title {
+    font-weight: bold;
+    color:rgb(143, 112, 70);
+}
