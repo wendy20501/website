@@ -49,3 +49,11 @@ body {
     font-weight: bold;
     color:rgb(143, 112, 70);
 }
+
+.content {
+    margin-left: 30px;
+}
+
+.imgdemo {
+    padding: 0 10% 0 10%;
+}

@@ -5,3 +5,8 @@ body {
 .mytitlearea {
     background-image: url(../../image/board-1614646_1920.jpg);
 }
+
+.appimg {
+    width: 100%;
+    margin-top: 10px;
+}
