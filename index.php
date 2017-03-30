@@ -27,7 +27,9 @@
         <!-- About section -->
         <div id="about">
             <div class="intro">
-                <div class="col-md-4 LI-profile-badge"  data-version="v1" data-size="medium" data-locale="zh_TW" data-type="vertical" data-theme="light" data-vanity="yi-wen-wang-5936a7105"><a class="LI-simple-link" href='https://www.linkedin.com/in/yi-wen-wang-5936a7105?trk=profile-badge'>Yi-Wen Wang</a></div>
+                <!--
+                <div class="col-md-4 LI-profile-badge"  data-version="v1" data-size="medium" data-locale="zh_TW" data-type="vertical" data-theme="light" data-vanity="yi-wen-wang-5936a7105"><a class="LI-simple-link" href='https://www.linkedin.com/in/yi-wen-wang-5936a7105?trk=profile-badge'>Yi-Wen Wang</a></div>-->
+                <img src="image/about_me_1.png" class="col-md-4" alt="Responsive image">
                 <div id="aboutword" class="col-md-4">
                     <h2>Yi-Wen Wang</h2>
                     <p class="featured">

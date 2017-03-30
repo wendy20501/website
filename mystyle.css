@@ -35,18 +35,20 @@ body {
     float: left;
     /*width: 30%;*/
 }
-
+/*
 #about {
     padding-top: 8%;
-}
+}*/
 
 .intro {
-    margin-bottom: 8%;
+    padding: 8%;
+    /*margin-bottom: 8%;*/
 }
 
 #aboutword {
     text-align: left;
     color: darkslategray;
+    padding-top: 3%;
 }
 
 .featured {
