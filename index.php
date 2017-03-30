@@ -13,20 +13,10 @@
         <link rel="icon" type="image/png" href="image/icon.png">
         <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     </head>
-    <body>
-        <!-- Top logo and tabs -->
-        <a id="logo" href="#top">
-            <img id="logoimg" src="image/icon.png" alt="Responsive image" class="img-circle">
-        </a>
-        
+    <body>        
         <!-- First menu page -->
         <div id="top">
-            
-            <div class="bg">
-                <img src="image/webpage1/1-01.jpg">
-            </div>
-            
-            <div id="menu">
+            <div id="menu-btn">
                 <a href="#about"><img id="aboutimg" class="menuimg" src="image/webpage1/1-1.png" alt="Responsive image"></a>
                 <a href="#project"><img class="menuimg" id="projectimg" src="image/webpage1/1-2.png" alt="Responsive image"></a>
                 <img class="menuimg" id="resumeimg" onclick="openResume()" src="image/webpage1/1-3.png" alt="Responsive image">
@@ -36,206 +26,102 @@
         
         <!-- About section -->
         <div id="about">
-            <!--
-            <div class="bg">
-                <img id="aboutbg" src="image/webpage22a/2A-01.jpg">
-            </div>
-            <div class="sec_title">About</div>
-            <img id="aboutandroid" class="mg-responsive btn" src="image/webpage22b/2B-1-01.png" onclick="" alt="Responsive image">
-            <img id="aboutweb" class="mg-responsive btn" src="image/webpage22b/2B-2-01.png" onclick="" alt="Responsive image">
-            <img id="aboutsw" class="mg-responsive btn" src="image/webpage22b/2B-3-01.png" onclick="" alt="Responsive image">
-            <img id="aboutword" class="mg-responsive btn" src="image/webpage22a/2A-1-01.png" onclick="switchpage()" alt="Responsive image">
-            -->
-            <!--img id="aboutpeople_a" src="image/webpage22a/2A-2-01.png" alt="Responsive image"-->
-            <!--img id="aboutpeople_b" src="image/webpage22b/2B-4-01.png" alt="Responsive image"-->
-            <div class="container">
-                <div class="intro jumbotron thumbnail">
-                    <!--img id="aboutphoto" class="mg-responsive img-rounded" src="image/about_me.jpg" onclick="switchpage()" alt="Responsive image"-->
-                    <div id="aboutphoto" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="zh_TW" data-type="vertical" data-theme="light" data-vanity="yi-wen-wang-5936a7105"><a class="LI-simple-link" href='https://www.linkedin.com/in/yi-wen-wang-5936a7105?trk=profile-badge'>Yi-Wen Wang</a></div>
-                    <div id="aboutword">
-                        <h3>Yi-Wen Wang</h3>
-                        Hi, My name is Yi-Wen. I strive to do what I dream to do - be a software engineer and develop well applications for people. I just got my master degree of Computer Science from USC. Currently, I am actively pursuing any full-time software engineer positions around Bay Area, CA and would be available to start immediately. I am interested to explore and learn new technology. In USC, I love to learn courses in different fields such as AI, 3D, mobile game, web developing, etc. Now, I'm working on machine learning and Matlab. If you have any opportunities or questions for me, don't be hesitate to contact me. Thank you.
-                    </div>
+            <div class="intro">
+                <div class="col-md-4 LI-profile-badge"  data-version="v1" data-size="medium" data-locale="zh_TW" data-type="vertical" data-theme="light" data-vanity="yi-wen-wang-5936a7105"><a class="LI-simple-link" href='https://www.linkedin.com/in/yi-wen-wang-5936a7105?trk=profile-badge'>Yi-Wen Wang</a></div>
+                <div id="aboutword" class="col-md-4">
+                    <h2>Yi-Wen Wang</h2>
+                    <p class="featured">
+                        Hi, My name is Yi-Wen. I strive to do what I dream to do - be a software engineer and develop well applications for people.<br> 
+                        I just got my master degree of Computer Science from USC. 
+                        I am interested to explore and learn new technology. In USC, I love to learn courses in different fields such as AI, 3D, mobile game, web developing, etc. Now, I'm working on machine learning and Matlab. 
+                    </p>
+
                 </div>
-                <div class="jumbotron thumbnail">
-                    <h3>What I can do</h3>
-                    <div class="service">
-                        <img id="aboutandroid" class="mg-responsive" src="image/webpage22b/2B-1-01.png" alt="Responsive image">
-                        <div class="service_overlay">
-                            Java<br><br>
-                            Android API<br><br>
-                            Android life cycle<br><br>
-                            Information architecture<br><br>
-                            Unit test
-                        </div>
-                    </div>
-                    <div class="service">
-                        <img id="aboutweb" class="mg-responsive" src="image/webpage22b/2B-2-01.png" alt="Responsive image">
-                        <div class="service_overlay">
-                            HTML5<br><br>
-                            CSS3<br><br>
-                            Javascript<br><br>
-                            PHP<br><br>
-                            Responsive design<br><br>
-                            Web framworks
-                        </div>
-                    </div>
-                    <div class="service">
-                        <img id="aboutsw" class="mg-responsive" src="image/webpage22b/2B-3-01.png" alt="Responsive image">
-                        <div class="service_overlay">
-                            Java<br><br>
-                            Python<br><br>
-                            C/C++<br><br>
-                            Algorithm<br><br>
-                            Data structure<br><br>
-                            Database<br><br>
-                            Software development life cycle<br><br>
-                            Design pattern<br><br>
-                            Unit test
-                        </div>
-                    </div>
+                <div class="col-mid-4">
+                    <img id="aboutandroid" class="mg-responsive flower" src="image/webpage22b/2B-1-01.png" alt="Responsive image">
+                    <img id="aboutweb" class="mg-responsive flower" src="image/webpage22b/2B-2-01.png" alt="Responsive image">
+                    <img id="aboutsw" class="mg-responsive flower" src="image/webpage22b/2B-3-01.png" alt="Responsive image">
+                </div>
+            </div>
+            <div id="todo">
+                <h3>What I can do.</h3><br>
+                <div class="service">
+                    <h4>Android App</h4>
+                    <p class="featured">
+                        Java<br>
+                        Android API<br>
+                        Android life cycle<br>
+                        Information architecture<br>
+                        Unit test
+                    </p>
+                </div>
+                <div class="service">
+                    <h4>Web Development</h4>
+                    <p class="featured">
+                        HTML5<br>
+                        CSS3<br>
+                        Javascript<br>
+                        PHP<br>
+                        Responsive design<br>
+                        Web framworks
+                    </p>
+                </div>
+                <div class="service">
+                    <h4>Software Development</h4>
+                    <p class="featured">
+                        Java<br>
+                        Python<br>
+                        C/C++<br>
+                        Algorithm<br>
+                        Data structure<br>
+                        Database<br>
+                        Software development life cycle<br>
+                        Design pattern<br>
+                        Unit test
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Project section -->
         <div id="project">
-            <div class="bg">
-                <img class="double_sec" src="image/webpage3/3-01.jpg">
-            </div>
-            <div class="sec_title">Project</div>
-            <div class="mycontainer">
-                <div class="projectphoto">
-                    <a href="http://cs-server.usc.edu:24226/website/project/stocksearch/mystockdemo.html" target="_self">
-                        <img class="img-responsive" src="image/template/computer&phone-01.png" alt="Responsive image">
-                        <div class="thumbnail overlay">
-                            <div class="text">Stock Search App</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="projectphoto">
-                    <a href="http://cs-server.usc.edu:24226/website/project/blackboard-runner/bbrunnerdemo.html" target="_self">
-                        <img class="img-responsive" src="image/project_game.png" alt="Responsive image">
-                        <div class="thumbnail overlay">
-                            <div class="text">Blackboard Runner Game</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="projectphoto">
-                    <a href="http://cs-server.usc.edu:24226/website/project/videoanalysis/videoanalysis.html" target="_self">
-                        <img class="img-responsive" src="image/project_egocentric.png" alt="Responsive image">
-                        <div class="thumbnail overlay">
-                            <div class="text">Egocentric Video Summary</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!--
-            <br>
-            <div id="project_slide" class="carousel slide" data-ride="carousel">
-            -->
-                <!-- carousel indicators -->
-                <!--
-                <ol class="carousel-indicators">
-                    <li data-target="#project_slide" data-slide-to="0" class="active"></li>
-                    <li data-target="#project_slide" data-slide-to="1"></li>
-                    <li data-target="#project_slide" data-slide-to="2"></li>
-                </ol>
-                <div class="container">
-                -->
-                    <!-- Wrapper for slides -->
-                    <!--
-                    <div class="carousel-inner" role="listbox">
-                    -->
-                        <!-- Stock project -->
-                        <!--
-                        <div class="item active">
-                            <div class="row myslide">
-                                <a href="http://cs-server.usc.edu:24226/website/mystockdemo.html" target="_self"><img class="project_img col-md-offset-1 col-md-4 img-responsive img-rounded" src="image/project_web.png" alt="Responsive image"></a>     
-                                <div class="jumbotron project_info col-md-5">
-                                    <b><h3>Stock Search Application</h3></b>
-                                    <h5 class="detail">DATE </h5>Apr 2016 to May 2016
-                                    <h5 class="detail">CATAGORY </h5>Website, Android
-                                    <h5 class="detail">SKILLS</h5>
-                                    <span class="mylabel label label-primary">HTML5</span>
-                                    <span class="mylabel label label-primary">CSS3</span>
-                                    <span class="mylabel label label-primary">Javascript</span>
-                                    <span class="mylabel label label-primary">PHP</span>
-                                    <span class="mylabel label label-primary">JSON</span>
-                                    <span class="mylabel label label-primary">jQuery</span>
-                                    <span class="mylabel label label-primary">AJAX</span>
-                                    <span class="mylabel label label-primary">Bootstrap</span>
-                                    <span class="mylabel label label-primary">Android Studio</span>
-                                    <span class="mylabel label label-primary">Java</span><br>
-                                </div>
-                            </div>
-                        </div>
-                        -->
-                        <!-- BB Runner project -->
-                        <!--
-                        <div class="item">
-                            <div class="row">
-                                <img class="project_img col-md-offset-1 col-md-4 img-rounded img-responsive" src="image/project_game.png" alt="Responsive image">
-                                <div class="jumbotron project_info col-md-5">
-                                    <b><h3>Blackboard Runner</h3></b>
-                                    <h5 class="detail">DATE </h5>Aug 2015 to Dec 2015
-                                    <h5 class="detail">CATAGORY </h5>Mobile Game
-                                    <h5 class="detail">SKILLS</h5>
-                                    <span class="mylabel label label-primary">Unity</span>
-                                    <span class="mylabel label label-primary">C#</span>
-                                    <span class="mylabel label label-primary">Photoshop</span>
-                                </div>
-                            </div>
-                        </div>
-                        -->
-                        <!-- Egocentric video project -->
-                        <!--
-                        <div class="item">
-                            <div class="row">
-                                <img class="project_img col-md-offset-1 col-md-4 img-responsive img-rounded" src="image/project_egocentric.png" alt="Responsive image">
-                                <div class="jumbotron project_info col-md-5">
-                                    <b><h3>Videos Analysis Project</h3></b>
-                                    <h5 class="detail">DATE </h5>Mar 2016 to May 2016
-                                    <h5 class="detail">CATAGORY </h5>Multimedia
-                                    <h5 class="detail">SKILLS</h5>
-                                    <span class="mylabel label label-primary">eclipse</span>
-                                    <span class="mylabel label label-primary">Java</span>
-                                    <span class="mylabel label label-primary">video/audio related algorithms</span>
-                                </div>
-                            </div>
-                        </div>
+            <h3>What I have done.</h3><br>
+            <div class="projectphoto">
+                <a href="http://cs-server.usc.edu:24226/website/project/stocksearch/mystockdemo.html" target="_self">
+                    <img class="img-responsive" src="image/template/computer&phone-01.png" alt="Responsive image">
+                    <div class="thumbnail overlay">
+                        <div class="text">Stock Search App</div>
                     </div>
-                </div>
-                -->
-                <!-- carousel controls -->
-                <!--
-                <a class="left carousel-control" href="#project_slide" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#project_slide" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
                 </a>
             </div>
-        -->
+            <div class="projectphoto">
+                <a href="http://cs-server.usc.edu:24226/website/project/blackboard-runner/bbrunnerdemo.html" target="_self">
+                    <img class="img-responsive" src="image/project_game.png" alt="Responsive image">
+                    <div class="thumbnail overlay">
+                        <div class="text">Blackboard Runner Game</div>
+                    </div>
+                </a>
+            </div>
+            <div class="projectphoto">
+                <a href="http://cs-server.usc.edu:24226/website/project/videoanalysis/videoanalysis.html" target="_self">
+                    <img class="img-responsive" src="image/project_egocentric.png" alt="Responsive image">
+                    <div class="thumbnail overlay">
+                        <div class="text">Egocentric Video Summary</div>
+                    </div>
+                </a>
+            </div>
         </div>
         
         <!-- Resume section -->
         <div id="resume">
-            <div class="bg">
-                <img class="double_sec" src="image/webpage4page5/4-01.jpg">
-            </div>
-            <!--
-            <div class="sec_title">- Resume -</div><br>
-            -->
-            <!-- Button trigger modal -->
-            <!--
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Check out my resume!
-            </button>
-            -->
-            
+            <div id="canhelp">
+                <h3>I can help.</h3><br>
+                <p class="featured">
+                    Currently, I am actively pursuing full-time software engineer positions around Bay Area, CA and would be available to start immediately. If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.
+                </p><br><br>
+                <button class="btn btn-primary"><span class="glyphicon glyphicon-user"></span> MY RESUME</button>
+                <button class="btn btn-primary"><span class="glyphicon glyphicon-envelope"></span> MESSAGE ME</button>
+            </div>     
             <!-- Resume modal -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog modal-lg" role="document">
@@ -316,65 +202,60 @@
         
         <!-- Contact section -->
         <div id="contact">
-            <div class="bg">
-                <img src="image/webpage4page5/5-01.jpg">
+            <img class="mg-responsive" src="image/webpage4page5/5-02.jpg" alt="Responsive image">
+            <div class="myform">
+            <form class="form-horizontal" name="contact" method="post">
+                <div class="form-group">
+                    <label for="inputname" class="col-md-3 control-label"><span class="star">*</span> Name</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control contactbg" name="inputname" placeholder="Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputemail" class="col-md-3 control-label"><span class="star">*</span> Email</label>
+                    <div class="col-md-9">
+                        <input type="email" class="form-control contactbg" name="inputemail" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputsub" class="col-md-3 control-label"><span class="star">*</span> Subject</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control contactbg" name="inputsub" placeholder="Subject" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputmsg" class="col-md-3 control-label"><span class="star">*</span> Message</label>
+                    <div class="col-md-9">
+                        <textarea class="form-control contactbg" name="inputmsg" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                      <button type="submit" class="btn btn-primary" name="contact">Send</button>
+                      <button type="reset" class="btn btn-default">Reset</button>
+                  </div>
+            </form>
             </div>
-            <div class="contact_form">
-                <form class="form-horizontal" name="contact" method="post">
-                    <div class="form-group">
-                        <label for="inputname" class="col-md-4 control-label"><span class="star">*</span> Name</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control contactbg" name="inputname" placeholder="Name" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputemail" class="col-md-4 control-label"><span class="star">*</span> Email</label>
-                        <div class="col-md-5">
-                            <input type="email" class="form-control contactbg" name="inputemail" placeholder="Email" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputsub" class="col-md-4 control-label"><span class="star">*</span> Subject</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control contactbg" name="inputsub" placeholder="Subject" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputmsg" class="col-md-4 control-label"><span class="star">*</span> Message</label>
-                        <div class="col-md-5">
-                            <textarea class="form-control contactbg" name="inputmsg" rows="5" placeholder="Message" required></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-offset-3 col-md-6">
-                          <button type="submit" class="btn btn-primary" name="contact">Send</button>
-                          <button type="reset" class="btn btn-default">Reset</button>
-                        </div>
-                      </div>
-                </form>
-                <?php
-                    if (isset($_POST["contact"])){
-                        $to = "wendy20501@gmail.com";
-                        $subject = "You got a mail from your website: " . $_POST["inputsub"];
-                        $msg = $_POST["inputmsg"];
-                        $headers = "From: " . $_POST["inputemail"];
-                        $msg = wordwrap($msg,70);
-                        mail($to,$subject,$msg,$headers);
-                    }
-                ?> 
+            <?php
+                if (isset($_POST["contact"])){
+                    $to = "wendy20501@gmail.com";
+                    $subject = "You got a mail from your website: " . $_POST["inputsub"];
+                    $msg = $_POST["inputmsg"];
+                    $headers = "From: " . $_POST["inputemail"];
+                    $msg = wordwrap($msg,70);
+                    mail($to,$subject,$msg,$headers);
+                }
+            ?> 
+            <!-- Related links -->
+            <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/profile.php?id=1795699473" target="_blank">
+                <span class="fa fa-facebook"></span>
+            </a>
+            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/yi-wen-wang-5936a7105" target="_blank">
+                <span class="fa fa-linkedin"></span>
+            </a>
+            <br><br>
 
-                <!-- Related links -->
-                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/profile.php?id=1795699473" target="_blank">
-                    <span class="fa fa-facebook"></span>
-                </a>
-                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/yi-wen-wang-5936a7105" target="_blank">
-                    <span class="fa fa-linkedin"></span>
-                </a>
-                <br><br>
-
-                <!-- Copyright -->
-                Copyright &copy; 2017 by Yi-Wen Wang.
-            </div>
+            <!-- Copyright -->
+            Copyright &copy; 2017 by Yi-Wen Wang.
         </div>
     </body>
     <script>window.jQuery || document.write('<script src="jquery-1.12.2.js"><\/script>')</script>

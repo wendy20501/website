@@ -1,33 +1,25 @@
 body {
     text-align: center;
     margin: auto;
-    background-image: url(image/retina_wood.png);
-    background-repeat: repeat;
 }
 
 .bg {
     position: relative;
-    z-index: -999;
 }
 
 .bg img {
     /*height: 100vh;*/
     width: 100%;
 }
-
-#logo {
-    position: fixed;
-    margin: 20px;
-    top:0;
-    left: 0;
-    display: none;
+#top {
+    background-image: url(image/webpage1/1-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-#logoimg {
-    width: 50px;
-}
-
-#menu {
+#menu-btn {
     position: absolute;
     bottom:10%;
     left: 0;
@@ -39,113 +31,70 @@ body {
     height: 150px;
 }
 
-#aboutpeople_a {
-    width: 15%;
-    position: absolute;
-    bottom: 0;
-    left: 500px;
-}
-
-#aboutpeople_b {
-    width: 20%;
-    position: absolute;
-    bottom: 0;
-    left: 600px;
-}
-
 #aboutphoto {
     float: left;
-    width: 30%;
+    /*width: 30%;*/
 }
 
 #about {
-    padding-top: 30px;
+    padding-top: 8%;
+}
+
+.intro {
+    margin-bottom: 8%;
 }
 
 #aboutword {
     text-align: left;
     color: darkslategray;
-    margin-left: 30%;
-    padding-left: 30px;
 }
 
-.intro {
-    overflow: auto;
-    padding: 30px;
+.featured {
+    font-size: 1.1875em;
+    line-height: 1.474em;
+}
+
+#todo {
+    background-color: rgb(158, 216, 71);
+    padding: 50px;
+}
+
+h3 {
+    color: rgb(99, 160, 70);
+}
+
+#todo h4 {
+    color: rgb(70, 120, 50);
 }
 
 .service {
     position: relative;
     display: inline-block;
-    margin-right: 150px;
-}
-
-.service img {
-    width: 150px;
-}
-
-.service:hover .service_overlay {
-    opacity: 1;
-}
-
-.service_overlay {
     text-align: left;
-    color: rgb(105,139,65);
-    position: absolute;
-    top: 30px;
-    bottom: 0;
-    left: 150px;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
+    color: azure;
+    vertical-align:top;
+    margin: 0 3% 0 3%;
 }
 
-#project {
-    position: relative;
-    /*
-    background-image: url(image/webpage3/3-01.jpg);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    */
+.flower {
+    width: 110px;
 }
 
-#resume {
-    position: relative;
-    /*
-    background-image: url(image/webpage4page5/4-01.jpg);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    */
+#canhelp, #project{
+    padding: 50px;
 }
 
-#contact {
-    position: relative;
-    /*
-    background-image: url(image/webpage4page5/5-01.jpg);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 300px;
-    color: white;
-    */
+#canhelp p {
+    text-align: left;
+    margin: auto;
+    width: 60%;
 }
 
 .projectphoto {
     position: relative;
     display: inline-table;
-    width: 30%;
+    width: 15%;
     margin: 5px;
-}
-
-.mycontainer {
-    position: absolute;
-    top:10%;
-    left:20%;
-    right: 20%;
-    margin: 20px;
 }
 
 .overlay {
@@ -175,37 +124,25 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 
+#contact {
+    background-image: url(image/webpage4page5/5-03.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact img {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.myform {
+    margin: 0 30% 0 30%;
+    height: 450px;
+}
+
 .contactbg {
     background-color: rgb(137,164,198);
-}
-
-.contact_form {
-    position: absolute;
-    top:50%;
-    left: 0;
-    right: 0;
-}
-
-.sec_title {
-    font-family: 'Yellowtail', cursive;
-    font-size: 50px;
-    color: white;
-    border-color: white;
-    border-style: dashed;
-    position: absolute;
-    top: 50px;
-    left:0;
-    right: 0;
-    margin-left: 40%;
-    margin-right: 40%;
-}
-
-.project_section {
-    height: 200vh;
-}
-.section {
-    height: 100vh;
-    position: relative;
 }
 
 #project_slide {
