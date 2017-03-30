@@ -17,10 +17,15 @@
         <!-- First menu page -->
         <div id="top">
             <div id="menu-btn">
-                <a href="#about"><img id="aboutimg" class="menuimg" src="image/webpage1/1-1.png" alt="Responsive image"></a>
-                <a href="#project"><img class="menuimg" id="projectimg" src="image/webpage1/1-2.png" alt="Responsive image"></a>
-                <img class="menuimg" id="resumeimg" onclick="openResume()" src="image/webpage1/1-3.png" alt="Responsive image">
-                <a href="#contact"><img class="menuimg" id="contactimg" src="image/webpage1/1-4.png" alt="Responsive image"></a>
+                <a href="#about"><img id="aboutimg" class="menuimg hidden-sm hidden-xs" src="image/webpage1/1-1.png" alt="Responsive image"></a>
+                <a href="#project"><img class="menuimg hidden-sm hidden-xs" id="projectimg" src="image/webpage1/1-2.png" alt="Responsive image"></a>
+                <img class="menuimg hidden-sm hidden-xs" id="resumeimg" onclick="openResume()" src="image/webpage1/1-3.png" alt="Responsive image">
+                <a href="#contact"><img class="menuimg hidden-sm hidden-xs" id="contactimg" src="image/webpage1/1-4.png" alt="Responsive image"></a>
+                
+                <a href="#about" class="visible-sm-block visible-xs-block menu-text"><span class="glyphicon glyphicon-user"> ABOUT</span></a>
+                <a href="#project" class="visible-sm-block visible-xs-block menu-text"><span class="glyphicon glyphicon-wrench"> PROJECT</span></a>
+                <span class="visible-sm-block visible-xs-block glyphicon glyphicon-paperclip menu-text" onclick="openResume()"> RESUME</span>
+                <a href="#contact" class="visible-sm-block visible-xs-block menu-text"><span class="glyphicon glyphicon-envelope"> CONTACT</span></a>
             </div>
         </div>
         
@@ -29,25 +34,28 @@
             <div class="intro">
                 <!--
                 <div class="col-md-4 LI-profile-badge"  data-version="v1" data-size="medium" data-locale="zh_TW" data-type="vertical" data-theme="light" data-vanity="yi-wen-wang-5936a7105"><a class="LI-simple-link" href='https://www.linkedin.com/in/yi-wen-wang-5936a7105?trk=profile-badge'>Yi-Wen Wang</a></div>-->
-                <img src="image/about_me_1.png" class="col-md-4" alt="Responsive image">
-                <div id="aboutword" class="col-md-4">
+                <img src="image/about_me_1.png" class="col-md-4 col-sm-4" alt="Responsive image">
+                <div id="aboutword" class="col-md-5 col-sm-8">
                     <h2>Yi-Wen Wang</h2>
                     <p class="featured">
-                        Hi, My name is Yi-Wen. I strive to do what I dream to do - be a software engineer and develop well applications for people.<br> 
+                        Hi, My name is Yi-Wen. You can call me Wendy too. I strive to do what I dream to do - be a software engineer and develop well applications for people.<br> 
                         I just got my master degree of Computer Science from USC. 
                         I am interested to explore and learn new technology. In USC, I love to learn courses in different fields such as AI, 3D, mobile game, web developing, etc. Now, I'm working on machine learning and Matlab. 
                     </p>
 
                 </div>
+                <img class="mg-responsive col-md-3 hidden-sm hidden-xs" src="image/webpage22a/2A-2-01.png" alt="Responsive image">
+                <!--
                 <div class="col-mid-4">
                     <img id="aboutandroid" class="mg-responsive flower" src="image/webpage22b/2B-1-01.png" alt="Responsive image">
                     <img id="aboutweb" class="mg-responsive flower" src="image/webpage22b/2B-2-01.png" alt="Responsive image">
                     <img id="aboutsw" class="mg-responsive flower" src="image/webpage22b/2B-3-01.png" alt="Responsive image">
-                </div>
+                </div>-->
             </div>
             <div id="todo">
                 <h3>What I can do.</h3><br>
                 <div class="service">
+                    <img id="aboutandroid" class="mg-responsive flower" src="image/webpage22b/2B-1-01.png" alt="Responsive image">
                     <h4>Android App</h4>
                     <p class="featured">
                         Java<br>
@@ -58,6 +66,7 @@
                     </p>
                 </div>
                 <div class="service">
+                    <img id="aboutweb" class="mg-responsive flower" src="image/webpage22b/2B-2-01.png" alt="Responsive image">
                     <h4>Web Development</h4>
                     <p class="featured">
                         HTML5<br>
@@ -69,6 +78,7 @@
                     </p>
                 </div>
                 <div class="service">
+                    <img id="aboutsw" class="mg-responsive flower" src="image/webpage22b/2B-3-01.png" alt="Responsive image">
                     <h4>Software Development</h4>
                     <p class="featured">
                         Java<br>
@@ -121,8 +131,9 @@
                 <p class="featured">
                     Currently, I am actively pursuing full-time software engineer positions around Bay Area, CA and would be available to start immediately. If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.
                 </p><br><br>
-                <button class="btn btn-primary"><span class="glyphicon glyphicon-user"></span> MY RESUME</button>
-                <button class="btn btn-primary"><span class="glyphicon glyphicon-envelope"></span> MESSAGE ME</button>
+                <img class="mg-responsive hidden-xs" src="image/webpage22b/2B-4-01.png" alt="Responsive image">
+                <button class="btn btn-primary" onclick="openResume()"><span class="glyphicon glyphicon-user"></span> MY RESUME</button>
+                <button class="btn btn-primary" onclick="goto(3)"><span class="glyphicon glyphicon-envelope"></span> MESSAGE ME</button>
             </div>     
             <!-- Resume modal -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -253,6 +264,9 @@
             </a>
             <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/yi-wen-wang-5936a7105" target="_blank">
                 <span class="fa fa-linkedin"></span>
+            </a>
+            <a class="btn btn-social-icon btn-github" href="https://github.com/wendy20501" target="_blank">
+                <span class="fa fa-github"></span>
             </a>
             <br><br>
 

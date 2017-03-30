@@ -31,18 +31,29 @@ body {
     height: 150px;
 }
 
+.menu-text {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight:bolder;
+    text-shadow: 2px 2px black;
+    margin: 1% 30% 1% 30%;;
+    padding: 1%;
+    border: 3px dashed aliceblue;
+    border-radius: 8px;
+}
+
+.menu-text:hover {
+    color: rgb(255, 211, 34);
+    background-color: rgb(134, 209, 194);
+}
+
 #aboutphoto {
     float: left;
-    /*width: 30%;*/
 }
-/*
-#about {
-    padding-top: 8%;
-}*/
 
 .intro {
     padding: 8%;
-    /*margin-bottom: 8%;*/
+    overflow: auto;
 }
 
 #aboutword {
@@ -57,7 +68,7 @@ body {
 }
 
 #todo {
-    background-color: rgb(158, 216, 71);
+    background-color: rgb(157, 200, 61);
     padding: 50px;
 }
 
@@ -78,8 +89,13 @@ h3 {
     margin: 0 3% 0 3%;
 }
 
+.service h4, .service p{
+    margin-left: 110px;
+}
+
 .flower {
     width: 110px;
+    float: left;
 }
 
 #canhelp, #project{
@@ -90,6 +106,10 @@ h3 {
     text-align: left;
     margin: auto;
     width: 60%;
+}
+
+#canhelp img {
+    width: 25%;
 }
 
 .projectphoto {
