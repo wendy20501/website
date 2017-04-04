@@ -101,7 +101,7 @@
             <h3>What I have done.</h3><br>
             <div class="projectphoto">
                 <a href="http://cs-server.usc.edu:24226/website/project/stocksearch/mystockdemo.html" target="_self">
-                    <img class="img-responsive" src="image/template/computer&phone-01.png" alt="Responsive image">
+                    <img class="img-responsive" src="image/template/computer&phone-02.png" alt="Responsive image">
                     <div class="thumbnail overlay">
                         <div class="text">Stock Search App</div>
                     </div>
