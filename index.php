@@ -16,6 +16,7 @@
     <body>        
         <!-- First menu page -->
         <div id="top">
+            <span id="welcome">WELCOME TO WENDY'S<br> STUDIO</span>
             <div id="menu-btn">
                 <a href="#about"><img id="aboutimg" class="menuimg hidden-sm hidden-xs" src="image/webpage1/1-1.png" alt="Responsive image"></a>
                 <a href="#project"><img class="menuimg hidden-sm hidden-xs" id="projectimg" src="image/webpage1/1-2.png" alt="Responsive image"></a>
@@ -44,7 +45,7 @@
                     </p>
 
                 </div>
-                <img class="mg-responsive col-md-3 hidden-sm hidden-xs" src="image/webpage22a/2A-2-02.png" alt="Responsive image">
+                <img class="mg-responsive col-md-3 hidden-sm hidden-xs" src="image/webpage22a/2A-2-03.png" alt="Responsive image">
                 <!--
                 <div class="col-mid-4">
                     <img id="aboutandroid" class="mg-responsive flower" src="image/webpage22b/2B-1-01.png" alt="Responsive image">
@@ -131,7 +132,7 @@
                 <p class="featured">
                     Currently, I am actively pursuing full-time software engineer positions around Bay Area, CA and would be available to start immediately. If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.
                 </p><br><br>
-                <img class="mg-responsive hidden-xs" src="image/webpage22b/2B-4-02.png" alt="Responsive image">
+                <img class="mg-responsive hidden-xs" src="image/webpage22b/2B-4-03.png" alt="Responsive image">
                 <button class="btn btn-primary" onclick="openResume()"><span class="glyphicon glyphicon-user"></span> MY RESUME</button>
                 <button class="btn btn-primary" onclick="goto(3)"><span class="glyphicon glyphicon-envelope"></span> MESSAGE ME</button>
             </div>     
@@ -215,7 +216,7 @@
         
         <!-- Contact section -->
         <div id="contact">
-            <img class="mg-responsive" src="image/webpage4page5/5-02.jpg" alt="Responsive image">
+            <img class="mg-responsive" src="image/webpage4page5/5-05.jpg" alt="Responsive image">
             <div class="myform">
             <form class="form-horizontal" name="contact" method="post">
                 <div class="form-group">
