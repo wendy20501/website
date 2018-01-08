@@ -100,7 +100,7 @@
         <div id="project">
             <h3>What I have done.</h3><br>
             <div class="projectphoto">
-                <a href="http://cs-server.usc.edu:24226/website/project/stocksearch/mystockdemo.html" target="_self">
+                <a href="project/stocksearch/mystockdemo.html" target="_self">
                     <img class="img-responsive" src="image/template/computer&phone-02.png" alt="Responsive image">
                     <div class="thumbnail overlay">
                         <div class="text">Stock Search App</div>
@@ -108,7 +108,7 @@
                 </a>
             </div>
             <div class="projectphoto">
-                <a href="http://cs-server.usc.edu:24226/website/project/blackboard-runner/bbrunnerdemo.html" target="_self">
+                <a href="project/blackboard-runner/bbrunnerdemo.html" target="_self">
                     <img class="img-responsive" src="image/project_game.png" alt="Responsive image">
                     <div class="thumbnail overlay">
                         <div class="text">Blackboard Runner Game</div>
@@ -116,7 +116,7 @@
                 </a>
             </div>
             <div class="projectphoto">
-                <a href="http://cs-server.usc.edu:24226/website/project/videoanalysis/videoanalysis.html" target="_self">
+                <a href="project/videoanalysis/videoanalysis.html" target="_self">
                     <img class="img-responsive" src="image/project_egocentric.png" alt="Responsive image">
                     <div class="thumbnail overlay">
                         <div class="text">Egocentric Video Summary</div>
@@ -172,6 +172,14 @@
                       <!-- Work -->
                       <h4 class="resume_title"><span class="glyphicon glyphicon-briefcase"></span> WORK EXPERIENCE</h4>
                       <div class="row">
+                          <div class="col-md-10"><b>Software Engineer Intern, iCUbe info </b> - Fremont, California</div>
+                          <div class="col-md-2">2017 - 2017</div>
+                      </div>
+                      Developed a RESTful e-commerce website using Wordpress and WooCommerce plugin.<br>
+                      Cooperated with an art designer to create the theme for displaying product list, product summary, customized product attributes and social medias on the website in JavaScript/CSS/PHP.<br>
+                      Implemented the Alipay payment gateway plugin for WooCommerce website.<br>
+                      <br>
+                      <div class="row">
                           <div class="col-md-10"><b>Software Engineer Assistant, Giantec Inc.</b> - New Taipei, Taiwan</div>
                           <div class="col-md-2">2012 - 2014</div>
                       </div>
@@ -189,10 +197,11 @@
                       
                       <!-- Skills -->
                       <h4 class="resume_title"><span class="glyphicon glyphicon-wrench"></span> TECHNICAL SKILLS</h4>
+                      <b>Programming / Scripting Languages:</b> (Proficient) Java; (Familiar) JavaScript, Python, C++, C, SQL, HTML5, CSS3, PHP<br>
+                      <b>Techniques:</b> Git, jQuery, AJAX, Bootstrap, AWS, GAE, MySQL, WordPress, Node.js, Express.js<br>
+                      <b>Languages:</b> (native) Mandarin Chinese; (fluent) English<br>
                       <b>Software:</b> Visual Studio, Eclipse, Android Studio, MS Office, Adobe Illustrator, Adobe Photoshop<br>
                       <b>Operating System:</b> Windows, Linux, Android<br>
-                      <b>Languages:</b>  Java, C++, C, Python, C#, SQL<br>
-                      <b>Web:</b> HTML, CSS, JavaScript, DOM, XML, PHP, Json, AJAX, JQuery, Bootstrap, Facebook platform
                       <hr>
                       
                       <!-- Activity -->
